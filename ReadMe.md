@@ -1,0 +1,2 @@
+# ESP32-Cam error 
+this repo is about the manufacturing error in the esp32 cam module where it has an unmatched camera. the rest of the details will be available at [Nordmanngrowtechnology repo ](https://github.com/Nordmanngrowtechnology/ESP32-CAM)
