@@ -1,0 +1,8 @@
+import camera as cam 
+
+print(dir(cam.init))
+try:
+    cam.init(1,format=cam.JPEG)
+
+except Exception as error:
+    print(error)

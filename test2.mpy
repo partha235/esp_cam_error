@@ -1,0 +1,14 @@
+import camera as cam 
+
+# Initialize the camera with JPEG format
+cam.init(0, format=cam.JPEG)
+
+# Capture the image
+img = cam.capture()
+
+# Open the file in binary write mode and save the image
+with open("photo.jpeg", "wb") as imgFile:
+    imgFile.write(img)
+
+# Print completion message
+print("over")
